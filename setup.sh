@@ -80,3 +80,10 @@ echo "done"
 echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
 ls -la
 apt install sqlmap
+
+echo "installing assetfinder"
+go get -u github.com/tomnomnom/assetfinder
+echo "done"
+
+
+go get github.com/ffuf/ffuf
